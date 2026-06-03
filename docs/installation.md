@@ -1,7 +1,7 @@
 # Installation
 
 ```bash
-composer require smart-memory/laravel-ai-memory
+composer require smart-memory/laravel-smart-thread-memory
 
 php artisan vendor:publish --tag=ai-memory-config
 php artisan vendor:publish --tag=ai-memory-migrations

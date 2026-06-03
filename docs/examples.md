@@ -1,6 +1,6 @@
 # Examples
 
-The `examples/` directory contains framework-level snippets that show how Laravel AI Memory can fit into an application.
+The `examples/` directory contains framework-level snippets that show how Laravel Smart Thread Memory can fit into an application.
 
 ## Memory-aware Chat Controller
 

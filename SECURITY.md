@@ -1,6 +1,6 @@
 # Security Policy
 
-Laravel AI Memory is early-stage software. Please do not use it for highly sensitive production memory storage without reviewing the schema, retention behavior, and provider configuration for your own application.
+Laravel Smart Thread Memory is early-stage software. Please do not use it for highly sensitive production memory storage without reviewing the schema, retention behavior, and provider configuration for your own application.
 
 ## Reporting a Vulnerability
 

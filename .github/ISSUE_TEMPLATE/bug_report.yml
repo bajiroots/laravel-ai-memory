@@ -6,7 +6,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: Thanks for helping make Laravel AI Memory better.
+      value: Thanks for helping make Laravel Smart Thread Memory better.
   - type: input
     id: version
     attributes:

@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Laravel AI Memory will be documented in this file.
+All notable changes to Laravel Smart Thread Memory will be documented in this file.
 
 The project follows Semantic Versioning once the first tagged release is published.
 

@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Questions and ideas
-    url: https://github.com/smart-memory/laravel-ai-memory/discussions
+    url: https://github.com/bajiroots/laravel-smart-thread-memory/discussions
     about: Use discussions for open-ended design questions once the GitHub repo is public.

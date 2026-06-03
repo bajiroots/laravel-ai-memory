@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for taking a look at Laravel AI Memory.
+Thanks for taking a look at Laravel Smart Thread Memory.
 
 This project is early, so the best contributions are small, specific, and tested. The goal is to build a dependable memory layer for Laravel AI applications without turning the package into a full chat framework.
 

@@ -1,10 +1,10 @@
-# Laravel AI Memory
+# Laravel Smart Thread Memory
 
 Give your Laravel AI app a memory that survives the next chat window.
 
 [Baca dalam Bahasa Indonesia](README.id.md)
 
-Laravel AI Memory is a package for storing conversation memory, finding related threads, and pulling useful context back into your prompts. It is built for AI products where users jump between chats, projects, tickets, tasks, and decisions, but still expect the assistant to remember what came before.
+Laravel Smart Thread Memory is a package for storing conversation memory, finding related threads, and pulling useful context back into your prompts. It is built for AI products where users jump between chats, projects, tickets, tasks, and decisions, but still expect the assistant to remember what came before.
 
 It does not blindly merge conversations. It suggests related threads, shows confidence, and lets your app decide what happens next.
 
@@ -16,7 +16,7 @@ That works until a user says:
 
 > "Let's continue the Stripe invoice sync thing from last week."
 
-The app may have the answer somewhere, but the assistant does not know where to look. Laravel AI Memory gives your app a semantic memory layer so old decisions, facts, todos, and technical notes can be found again when they matter.
+The app may have the answer somewhere, but the assistant does not know where to look. Laravel Smart Thread Memory gives your app a semantic memory layer so old decisions, facts, todos, and technical notes can be found again when they matter.
 
 ## Why Laravel
 
@@ -69,7 +69,7 @@ The shape is here. The edges are still being sharpened.
 ## Installation
 
 ```bash
-composer require smart-memory/laravel-ai-memory
+composer require smart-memory/laravel-smart-thread-memory
 
 php artisan vendor:publish --tag=ai-memory-config
 php artisan vendor:publish --tag=ai-memory-migrations
@@ -248,6 +248,6 @@ Start with:
 
 ## Name
 
-The working name is **Laravel AI Memory**. The idea behind it is **Smart Thread Memory**: memory that helps an AI app notice when a new conversation belongs near an old one.
+The package name is **Laravel Smart Thread Memory**. The idea behind it is simple: memory that helps an AI app notice when a new conversation belongs near an old one.
 
 The name can still change. The problem is real either way.

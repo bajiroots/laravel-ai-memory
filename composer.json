@@ -1,6 +1,6 @@
 {
-    "name": "smart-memory/laravel-ai-memory",
-    "description": "Persistent semantic AI memory and suggested thread context for Laravel applications.",
+    "name": "smart-memory/laravel-smart-thread-memory",
+    "description": "Persistent semantic thread memory and related context retrieval for Laravel AI applications.",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -15,8 +15,8 @@
         "threading"
     ],
     "support": {
-        "issues": "https://github.com/smart-memory/laravel-ai-memory/issues",
-        "source": "https://github.com/smart-memory/laravel-ai-memory"
+        "issues": "https://github.com/bajiroots/laravel-smart-thread-memory/issues",
+        "source": "https://github.com/bajiroots/laravel-smart-thread-memory"
     },
     "autoload": {
         "psr-4": {

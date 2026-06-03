@@ -1,8 +1,8 @@
-# Laravel AI Memory
+# Laravel Smart Thread Memory
 
 Berikan aplikasi AI Laravel kamu memory yang tetap hidup setelah user membuka chat baru.
 
-Laravel AI Memory adalah package untuk menyimpan memory percakapan, menemukan thread yang berhubungan, dan mengambil konteks lama yang relevan untuk dimasukkan ke prompt AI. Package ini dibuat untuk produk AI ketika user berpindah-pindah antara chat, proyek, tiket, task, dan keputusan teknis, tetapi tetap berharap assistant memahami konteks sebelumnya.
+Laravel Smart Thread Memory adalah package untuk menyimpan memory percakapan, menemukan thread yang berhubungan, dan mengambil konteks lama yang relevan untuk dimasukkan ke prompt AI. Package ini dibuat untuk produk AI ketika user berpindah-pindah antara chat, proyek, tiket, task, dan keputusan teknis, tetapi tetap berharap assistant memahami konteks sebelumnya.
 
 Package ini tidak menggabungkan percakapan secara membabi buta. Ia memberikan saran thread terkait, confidence score, dan membiarkan aplikasi kamu menentukan langkah berikutnya.
 
@@ -14,7 +14,7 @@ Itu terasa baik-baik saja sampai user berkata:
 
 > "Lanjutkan yang invoice sync Stripe minggu lalu."
 
-Konteksnya mungkin ada di database, tetapi assistant tidak tahu harus mencari ke mana. Laravel AI Memory memberi aplikasi kamu lapisan semantic memory agar keputusan lama, fakta, todo, dan catatan teknis bisa ditemukan lagi saat dibutuhkan.
+Konteksnya mungkin ada di database, tetapi assistant tidak tahu harus mencari ke mana. Laravel Smart Thread Memory memberi aplikasi kamu lapisan semantic memory agar keputusan lama, fakta, todo, dan catatan teknis bisa ditemukan lagi saat dibutuhkan.
 
 ## Kenapa Laravel
 
@@ -67,7 +67,7 @@ Bentuk besarnya sudah ada. Detailnya masih perlu diasah bersama.
 ## Instalasi
 
 ```bash
-composer require smart-memory/laravel-ai-memory
+composer require smart-memory/laravel-smart-thread-memory
 
 php artisan vendor:publish --tag=ai-memory-config
 php artisan vendor:publish --tag=ai-memory-migrations
@@ -247,6 +247,6 @@ Mulai dari:
 
 ## Nama
 
-Nama sementara proyek ini adalah **Laravel AI Memory**. Ide di baliknya adalah **Smart Thread Memory**: memory yang membantu aplikasi AI menyadari ketika percakapan baru sebenarnya masih dekat dengan percakapan lama.
+Nama package ini adalah **Laravel Smart Thread Memory**. Ide di baliknya sederhana: memory yang membantu aplikasi AI menyadari ketika percakapan baru sebenarnya masih dekat dengan percakapan lama.
 
 Namanya masih bisa berubah. Masalah yang ingin diselesaikan tetap nyata.
