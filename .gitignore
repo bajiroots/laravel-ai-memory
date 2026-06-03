@@ -1,0 +1,9 @@
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.pint.cache
+/composer.lock
+composer.phar
+.DS_Store
+plan.md
+docs/publish-github.md

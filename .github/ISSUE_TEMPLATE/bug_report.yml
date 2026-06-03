@@ -1,0 +1,54 @@
+name: Bug report
+description: Report something that is broken or surprising.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make Laravel AI Memory better.
+  - type: input
+    id: version
+    attributes:
+      label: Package version or commit
+      placeholder: 0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: input
+    id: laravel
+    attributes:
+      label: Laravel version
+      placeholder: 11.x or 12.x
+    validations:
+      required: true
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database driver
+      options:
+        - PostgreSQL + pgvector
+        - PostgreSQL without pgvector
+        - MySQL
+        - SQLite
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: A failing test, small repo, or code snippet is ideal.
+    validations:
+      required: true

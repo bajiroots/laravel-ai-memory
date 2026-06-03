@@ -1,0 +1,58 @@
+{
+    "name": "smart-memory/laravel-ai-memory",
+    "description": "Persistent semantic AI memory and suggested thread context for Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "ai",
+        "memory",
+        "semantic-search",
+        "embeddings",
+        "pgvector",
+        "openai",
+        "conversation-memory",
+        "threading"
+    ],
+    "support": {
+        "issues": "https://github.com/smart-memory/laravel-ai-memory/issues",
+        "source": "https://github.com/smart-memory/laravel-ai-memory"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelAiMemory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelAiMemory\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^10.5|^11.0",
+        "laravel/pint": "^1.18"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelAiMemory\\AiMemoryServiceProvider"
+            ],
+            "aliases": {
+                "AiMemory": "LaravelAiMemory\\Facades\\AiMemory"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "format": "vendor/bin/pint"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
