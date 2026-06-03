@@ -245,7 +245,6 @@ Start with:
 - [Issue Backlog](docs/issue-backlog.md)
 - [Release Checklist](docs/release-checklist.md)
 - [Contributing](docs/contributing.md)
-- [Publish to GitHub](docs/publish-github.md)
 
 ## Name
 
